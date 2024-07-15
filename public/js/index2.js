@@ -141,8 +141,8 @@ btnCarro.addEventListener('click', () => {
     
             Swal.fire({
                 icon: '!Gracias por tu compra.!',
-                title: `Tus productos llegaran en los tiempos estimados `,
-                text: `Tu factura llegara al correo suministrado`,
+                title: `Puedes hacer tu pago con la cuenta de nequi`,
+                text: `N° 3112345400`,
                 confirmButtonText: 'OK',
                 allowOutsideClick: false
             }).then(() => {
