@@ -23,89 +23,100 @@
     <header id="hnavbar">
 
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg bg-body">
-            <div class="container-fluid">
-               <button
-                  data-mdb-collapse-init
-                  class="navbar-toggler"
-                  type="button"
-                  data-mdb-target="#navbarExample01"
-                  aria-controls="navbarExample01"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation">
-               <i class="fas fa-bars"></i>
-               </button>
-               <div class="collapse navbar-collapse" id="navbarExample01">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                     <!-- Aquí le damos el diseño a los botones del navbar -->
-                     <!-- <li class="nav-item active">                  
-                        <a class="nav-link" aria-current="page" href="#Inicio"  >
-                        <button data-mdb-ripple-init type="submit" class="btn btn-primary btn-block mb-4" style="background-color:  #fdcae1;" id="Inicio">Inicio</button></a>
-                     </li> -->
-                     <!-- Aquí le damos el diseño a los botones del navbar -->
-                     <li class="nav-item active">
-                        <a class="nav-link" aria-current="page" href="#loginForm" >
-                        <button data-mdb-ripple-init type="submit" class="btn btn-primary btn-block mb-4" style="background-color:  #fdcae1;">Contacto</button></a>
-                        <!-- Aquí le damos el diseño a los botones del navbar -->
-                     <li class="nav-item active">
-                        <a class="nav-link" aria-current="page" href="#Ofertas" >
-                        <button data-mdb-ripple-init type="submit" class="btn btn-primary btn-block mb-4" style="background-color:  #fdcae1;">Ofertas</button></a>
-                     </li>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="#Productos">
-                        <button data-mdb-ripple-init type="submit" class="btn btn-primary btn-block mb-4" style="background-color:  #fdcae1;">Productos</button></a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="nosotros">
-                        <button data-mdb-ripple-init type="submit" href="nosotros" class="btn btn-primary btn-block mb-4" style="background-color:  #fdcae1;">Nosotros</button></a>
-                     </li>
-                  </ul>
-                  <!-- Aquí le damos el diseño a al boton para iniciar sesion-->
-                  <a class="nav-link" href="login">
-                  <button data-mdb-ripple-init type="submit" href="login" class="btn btn-primary btn-block mb-4" style="background-color:  #fdcae1;" id="btnInicioSesion">Iniciar Sesion</button>
-                  </a>
-                  <a class="nav-link" href="#">
-                  <button data-mdb-ripple-init type="submit" href="/" class="btn btn-primary btn-block mb-4" style="background-color:  #fdcae1; display: none;" id="logout">Cerrar Sesion</button>
-                  </a>
-                  <a class="nav-link" href="#">
-                  <button data-mdb-ripple-init type="submit" href="/" class="btn btn-primary btn-block mb-4" style="background-color:  #fdcae1; display: none;" id="carShopping"><span><i class="fas fa-cart-shopping"></i></span>
-                    <span class="badge rounded-pill badge-notification bg-danger " id="contadorProductos"></span></button>
-                  </a>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid"> 
+                <button class="=navbar-toggler" type="button" 
+data-bs-toggle="collapse"
+data-bs-target="#menu" 
+aria-controls="navbarSupportedContent"
+aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+</button>
+<!--elementos del menu colapsable-->
 
-                  <a class="nav-link" href="#">
-                     <button data-mdb-ripple-init type="submit" href="/" class="btn btn-primary btn-block mb-4" style="background-color:  #fdcae1; display: none;" id="updateUserBtn"><span><i class="fas fa-square-pen"></i></span>
-                       </button>
-                  </a>
-                  
+           
+               
+                <div class="collapse navbar-collapse" id="menu">
+             
+                    <ul class="navbar-nav me-auto">
+                       <!-- Aquí le damos el diseño a los botones del navbar -->
+                       <!-- <li class="nav-item active">                  
+                          <a class="nav-link" aria-current="page" href="#Inicio"  >
+                          <button data-mdb-ripple-init type="submit" class="btn btn-primary btn-block mb-4" style="background-color:  #fdcae1;" id="Inicio">Inicio</button></a>
+                       </li> -->
+                       <!-- Aquí le damos el diseño a los botones del navbar -->
+                       <li class="nav-item ">
+                          <a class="nav-link active" aria-current="page" href="#loginForm" >
+                          <button data-mdb-ripple-init type="submit" style="background-color:  #fdcae1; height: 38px; width: 7rem; border-radius: 5px;">Contacto</button></a>
+                          <!-- Aquí le damos el diseño a los botones del navbar -->
+                       <li class="nav-item ">
+                          <a class="nav-link active" aria-current="page" href="#Ofertas" >
+                          <button data-mdb-ripple-init type="submit"   style="background-color:  #fdcae1; height: 38px; width: 7rem; border-radius: 5px ; color: black; ">Ofertas</button></a>
+                       </li>
+                       </li>
+                       <li class="nav-item">
+                          <a class="nav-link active" href="#Productos">
+                          <button data-mdb-ripple-init type="submit"  style="background-color:  #fdcae1; height: 38px; width: 7rem; border-radius: 5px;">Productos</button></a>
+                       </li>
+                       <li class="nav-item">
+                          <a class="nav-link active" href="nosotros">
+                          <button data-mdb-ripple-init type="submit" href="nosotros"  style="background-color:  #fdcae1; height: 38px; width: 7rem; border-radius: 5px;">Nosotros</button></a>
+                       </li>
+                    </ul>
+                    <!-- Aquí le damos el diseño a al boton para iniciar sesion-->
+                    <a class="nav-link" href="login">
+                    <button data-mdb-ripple-init type="submit" href="login"  style="background-color:  #fdcae1; height: 38px; width: 7rem; border-radius: 5px;"id="btnInicioSesion">Iniciar Sesion</button>
+                    </a>
+                    <a class="nav-link" href="#">
+                    <button data-mdb-ripple-init type="submit" href="/"   style="background-color:  #fdcae1; height: 40px; width: 8rem; border-radius: 5px; " id="logout">Cerrar Sesion</button>
+                    </a>
+                    <a class="nav-link" href="#">
+                    <button data-mdb-ripple-init type="submit" href="/"  style="background-color:  #fdcae1; border-radius: 5px black;" id="carShopping"><span><i class="fas fa-cart-shopping"></i></span>
+                      <span class="badge rounded-pill badge-notification bg-danger " id="contadorProductos"></span></button>
+                    </a>
+  
+                    <a class="nav-link" href="#">
+                       <button data-mdb-ripple-init type="submit" href="/"  style="background-color: #fdcae1; border-radius: 5px black; " id="updateUserBtn"><span><i class="fas fa-square-pen"></i></span>
+                         </button>
+                    </a>
+                     </div>
+              </div>  
+               </div> 
+            </section>
+        </div>
+           
+    </nav>
+    
+          
+               
+    
                </div>
             </div>
-         </nav>
+         
+         </header>
          <!-- Navbar -->
-    </header>
-
+    
     <section>
         <div class="row">
 
             <!---seccion de carrusel-->
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" style="height: 300px !important; padding-top: 100px !important;">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" class="img-fluid" style="height:auto;max-width: 100%; padding-top: 100px !important;">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="Imagenes/logobanner.jpg"  style="width: 200px;height:300px; box-shadow: 5px 5px  8px  #fdcae1;" class="d-block w-100" alt="...">
+                <img src="Imagenes/logobanner.jpg"  style="width: 100%;height:300px; box-shadow: 5px 5px  8px  #fdcae1;" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="Imagenes/natural.jpg"  style="width: 200px;height:300px; box-shadow: 5px 5px  8px  #fdcae1;" class="d-block w-100" alt="...">
+                <img src="Imagenes/natural.jpg"  style="width: 100%;height:300px; box-shadow: 5px 5px  8px  #fdcae1;" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
                 <img src="imagenes/virtual.jpg"  style="width: 200px;height:300px; box-shadow: 5px 5px  8px  #fdcae1;" class="d-block w-100" alt="...">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" style="color: black;"  aria-hidden="true"></span>
+              <span class="carousel-control-prev-icon" style="color: black; background-color: white;"  aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-              <span class="carousel-control-next-icon" style="color: black;"  aria-hidden="true"></span>
+              <span class="carousel-control-next-icon" style="color: black; background-color: white; align-items: center;"  aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
           </div>
@@ -153,7 +164,7 @@
 
             <div class="row">
                <div class="col">                 
-               <a target="_blank" class="btn btn-primary btn-lg btn-block"  style="background-color: rgb(243, 141, 211); border-radius: solid 9px; margin-top: 50px;"href="https://www.youtube.com/watch?v=AEoEhJx7Q8w" >Rutina de belleza
+               <a target="_blank" class="btn btn-primary btn-lg btn-block"  style="background-color: rgb(243, 141, 211);color: black; border-radius: solid 9px; margin-top: 50px;"href="https://www.youtube.com/watch?v=AEoEhJx7Q8w" >Rutina de belleza
                </a>
 
                </div>    
@@ -256,7 +267,7 @@
            <div class="container text-center">
             <hr>
 
-            <h1 style="text-align:center; color: rgb(239, 6, 165);" >Tu opinión es muy importante. Te responderemos muy pronto</h1>
+            <h1 style="text-align:center; " >Tu opinión es muy importante. Te responderemos muy pronto</h1>
             
             <br>
             <br>
@@ -303,7 +314,7 @@
                         </label>
                         </div>
                         <!-- Submit button -->
-                        <button data-mdb-ripple-init type="submit" class="btn btn-primary btn-block mb-4" style="background-color:  #fdcae1; margin-top: -30px; z-index:1">Enviar</button>
+                        <button data-mdb-ripple-init type="submit" style="background-color:  #fdcae1; margin-top: -30px; z-index:1; color: black; border-radius: 5px ; width:400px; ">Enviar</button>
                     </form>
 
               </div>
