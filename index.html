@@ -46,28 +46,28 @@ aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
                        <!-- Aquí le damos el diseño a los botones del navbar -->
                        <li class="nav-item ">
                           <a class="nav-link active" aria-current="page" href="#loginForm" >
-                          <button data-mdb-ripple-init type="submit" style="background-color:  #fdcae1; height: 38px; width: 7rem; border-radius: 5px;">Contacto</button></a>
+                          <button data-mdb-ripple-init type="submit" class="btn btn"  style="background-color:  #fdcae1; height: 38px; width: 7rem; border:  solid black ; color: black; ">Contacto</button></a>
                           <!-- Aquí le damos el diseño a los botones del navbar -->
                        <li class="nav-item ">
                           <a class="nav-link active" aria-current="page" href="#Ofertas" >
-                          <button data-mdb-ripple-init type="submit"   style="background-color:  #fdcae1; height: 38px; width: 7rem; border-radius: 5px ; color: black; ">Ofertas</button></a>
+                          <button data-mdb-ripple-init type="submit" class="btn btn"  style="background-color:  #fdcae1; height: 38px; width: 7rem; border:  solid black ; color: black; ">Ofertas</button></a>
                        </li>
                        </li>
                        <li class="nav-item">
                           <a class="nav-link active" href="#Productos">
-                          <button data-mdb-ripple-init type="submit"  style="background-color:  #fdcae1; height: 38px; width: 7rem; border-radius: 5px;">Productos</button></a>
+                          <button data-mdb-ripple-init type="submit"  class="btn btn"  style="background-color:  #fdcae1; height: 38px; width: 7rem; border:  solid black ; color: black; ">Productos</button></a>
                        </li>
                        <li class="nav-item">
                           <a class="nav-link active" href="nosotros">
-                          <button data-mdb-ripple-init type="submit" href="nosotros"  style="background-color:  #fdcae1; height: 38px; width: 7rem; border-radius: 5px;">Nosotros</button></a>
+                          <button data-mdb-ripple-init type="submit" href="nosotros"  class="btn btn"  style="background-color:  #fdcae1; height: 38px; width: 7rem; border:  solid black ; color: black; ">Nosotros</button></a>
                        </li>
                     </ul>
                     <!-- Aquí le damos el diseño a al boton para iniciar sesion-->
                     <a class="nav-link" href="login">
-                    <button data-mdb-ripple-init type="submit" href="login"  style="background-color:  #fdcae1; height: 38px; width: 7rem; border-radius: 5px;"id="btnInicioSesion">Iniciar Sesion</button>
+                    <button data-mdb-ripple-init type="submit" href="login"  class="btn btn"  style="background-color:  #fdcae1; height: 45px; width: 7rem; border: solid black ; color: black; "id="btnInicioSesion">Iniciar Sesion</button>
                     </a>
                     <a class="nav-link" href="#">
-                    <button data-mdb-ripple-init type="submit" href="/"   style="background-color:  #fdcae1; height: 40px; width: 8rem; border-radius: 5px; " id="logout">Cerrar Sesion</button>
+                    <button data-mdb-ripple-init type="submit" href="/"   class="btn btn"  style="background-color:  #fdcae1; height: 38px; width: 7rem; border:  solid black ; color: black; " id="logout">Cerrar Sesion</button>
                     </a>
                     <a class="nav-link" href="#">
                     <button data-mdb-ripple-init type="submit" href="/"  style="background-color:  #fdcae1; border-radius: 5px black;" id="carShopping"><span><i class="fas fa-cart-shopping"></i></span>
@@ -130,11 +130,36 @@ aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
           <div class="row">
             <div class="col">
                <div class="img-fluid"style="width: -10rem;margin-top:10px;" > <!--se calcula en porcentaje para la parte responsive y ocupe todo el espacio-->  
-                  <img src="imagenes/card.svg"style="width:100%;width: 200px;height:300px; box-shadow: 5px 5px 8px  #fdcae1" class="rounded mx-auto d-block" alt="">
+                  <img src="imagenes/card.svg"style="width:100%;width: 200px;height:300px; box-shadow: 5px 5px 8px  #fdcae1" class="rounded mx-auto d-block" alt="" button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                
+                  </button>
                    
                </div>
             </div>
-        
+        <!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Mirar catálogo</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" style="display: flex;">
+        <img src="imagenes/card.svg" style="width: 150px;height: 150px;">
+          <h6 class="modal-content" >Nuestras sombras están diseñadas con excelentes estándares y clínicamente comprobados.Fabricados con ingredientes naturales, pensados para cualquier tipo de piel. </h6>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn " data-dismiss="modal" style="background-color: #fdcae1";>Cerrar</button>
+          <button type="button" class="btn btn" a href="#" style="background-color: #fdcae1;">Mirar sombras</button>
+        </div>
+      </div>
+    </div>
+  </div>
           <div class="col">
                <div class="img-fluid"style="width: 10rem;  margin-top:10px;width: 100%;" >
                   <img src="imagenes/brochas y accesorios.svg"  style="width: 200px;height:300px; box-shadow: 5px 5px  8px  #fdcae1;" class="mx-auto d-block" alt="">
