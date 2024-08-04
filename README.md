@@ -7,7 +7,7 @@ Welcome to my profile, in which you can see a student project and I rely on it t
 <h1 align="center">Hi 👋, I'm Catherine Vasquez</h1>
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/catherine vasquez" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="catherine vasquez" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/catherine-vasquez-gaviria-81a833186/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="catherine vasquez" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
